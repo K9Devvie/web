@@ -83,6 +83,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
     }
     
     return (
+        
         <Container maxW={"1200px"} p={5} my={5}>
             <SimpleGrid columns={2} spacing={6}>
                 <Stack spacing={"20px"}>
