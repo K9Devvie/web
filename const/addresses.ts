@@ -1,0 +1,8 @@
+export const MARKETPLACE_ADDRESS = "0xbe4E9De2Ad68841D8A53a630ea923364A2DF78e1";
+
+export const NFT_COLLECTION_ADDRESS = "0xDe16a7fab23859AB64606486740c2c15c91c2Ae1";
+
+export const TOKEN_ADDRESS = "";
+
+export const nftDropContractAddress = "0xDe16a7fab23859AB64606486740c2c15c91c2Ae1";
+
