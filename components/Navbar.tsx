@@ -39,6 +39,9 @@ export function Navbar() {
           <Link as={NextLink} href="/sell" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
             <Text fontWeight="lighter" color="Cyan">Inventory</Text> {/* Make text orange */}
           </Link>
+          <Link as={NextLink} href="/Social" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
+            <Text fontWeight="lighter" color="Cyan">Social</Text> {/* Make text orange */}
+          </Link>
 
 
         </Flex>
