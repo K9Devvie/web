@@ -43,17 +43,6 @@ export default function Sell() {
             )}
                 </Flex>
             </Link>
-            <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
-
-            <Link as={NextLink} href="Anons_Room_1" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
-                <Flex alignItems="center">
-                <Image src="https://media.licdn.com/dms/image/D4E0BAQF6gMSNL5xYCA/company-logo_200_200/0/1692892036736/scroll_io_logo?e=2147483647&v=beta&t=lN1d9ETN4PIIvDN4cWIaKzhzIp8DJMt3WxkOru6OBMA" alt="Room Image" boxSize={10} ml={3} borderRadius="full" />
-                <Text fontWeight="lighter" color="Cyan" ml={2}>Anon&apos;s Room 2</Text>
-
-
-                </Flex>
-            </Link>
-            <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
             
                 
