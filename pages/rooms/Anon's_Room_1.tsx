@@ -17,7 +17,7 @@ const ChatBox: React.FC = () => {
       <div style={{ position: 'relative' }}>
         <div style={{ textAlign: 'center' }}>
           <img src="https://media.licdn.com/dms/image/D4E0BAQF6gMSNL5xYCA/company-logo_200_200/0/1692892036736/scroll_io_logo?e=2147483647&v=beta&t=lN1d9ETN4PIIvDN4cWIaKzhzIp8DJMt3WxkOru6OBMA" alt="User Picture" style={{ width: '80px', height: '80px', borderRadius: '50%' }} />
-          <div style={{ fontStyle: 'italic', color: 'Cyan', fontFamily: 'Concert One', fontSize: '20px'  }}>Chat Community Name</div>
+          <div style={{ fontStyle: 'italic', color: 'Cyan', fontFamily: 'Concert One', fontSize: '20px'  }}>Anon 1's Community Name</div>
         </div>
         <div style={{ border: '2px solid cyan', backgroundColor: '#fff', width: '400px', height: '500px', overflow: 'hidden', borderRadius: '15px',  }}>
           <div style={{ height: '400px', overflowY: 'auto', padding: '10px' }}>
