@@ -36,9 +36,7 @@ export function Navbar() {
           <Link as={NextLink} href="/buy" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
             <Text fontWeight="lighter" color="Cyan">Marketplace</Text> {/* Make text orange */}
           </Link>
-          <Link as={NextLink} href="/sell" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
-            <Text fontWeight="lighter" color="Cyan">Inventory</Text> {/* Make text orange */}
-          </Link>
+
           <Link as={NextLink} href="/Rooms" mx={5} style={{ fontStyle: 'normal', color: 'Cyan', fontFamily: 'Concert One' }} >
             <Text fontWeight="lighter" color="Cyan">Rooms</Text> {/* Make text orange */}
           </Link>

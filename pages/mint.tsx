@@ -1,4 +1,4 @@
-import { Web3Button } from "@thirdweb-dev/react";
+import { Web3Button, darkTheme } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { nftDropContractAddress } from "../const/addresses";
@@ -27,7 +27,21 @@ const Mint: NextPage = () => {
       {/* Add a Box component with margin-top (mt) to lower the button */}
       <Box mt={14}>
         <Web3Button
-          theme="dark"
+          theme={darkTheme({
+            colors: {
+              accentText: "#00d5ff",
+              accentButtonBg: "#00d5ff",
+              modalBg: "#b853ee",
+              dropdownBg: "#e38126",
+              borderColor: "cyan",
+              primaryText: "#0dd5fd",
+              secondaryText: "#0dd5fd",
+              primaryButtonBg: "#e38126",
+              primaryButtonText: "Cyan",
+              connectedButtonBg: "linear(to-r, blue.200, purple.500, orange.500)",
+              
+            },
+          })}
           contractAddress={nftDropContractAddress}
           action={(contract) => contract.erc721.claim(1)}
           onSuccess={() => {
