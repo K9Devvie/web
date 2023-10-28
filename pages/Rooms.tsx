@@ -48,7 +48,7 @@ export default function Sell() {
                 </Link>
             ) : (
                 // Render a message indicating that the user doesn't have the required NFT
-                <Text style={{ color: "Red", fontFamily: 'Concert One' }} >You currently don't have any NFT passes to enter a room.</Text>
+                <Text style={{ color: "Red", fontFamily: 'Concert One' }} >You currently don&apos;t have any NFT passes to enter a room.</Text>
             )}
             <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
         </Container>
