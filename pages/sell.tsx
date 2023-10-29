@@ -24,7 +24,7 @@ export default function Sell() {
           as={NextLink}
           href="/buy"
           mx={5}
-          style={{ fontSize: "25px", fontStyle: "italic", color: "Cyan", fontFamily: "Concert One" }}
+          style={{ fontSize: "25px", fontStyle: "italic", color: "Cyan", fontFamily: "Concert One", backgroundColor: "orange", padding: "10px 20px", borderRadius: "15px" }}
         >
           <Text fontWeight="lighter" color="Cyan">
             Buy
@@ -33,7 +33,7 @@ export default function Sell() {
         <Link
           as={NextLink}
           href="/sell"
-          style={{ fontSize: "25px", fontStyle: "italic", color: "Cyan", fontFamily: "Concert One" }}
+          style={{ fontSize: "25px", fontStyle: "italic", color: "Cyan", fontFamily: "Concert One", backgroundColor: "orange", padding: "10px 20px", borderRadius: "15px" }}
         >
           <Text fontWeight="lighter" color="Cyan">
             Sell
